@@ -1,0 +1,2 @@
+John,john@mail.com,25
+Maria,wrongmail,200

@@ -1,0 +1,11 @@
+package com.fintech.engine.annotations;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Regex {
+    String pattern();
+    String message();
+}
+
